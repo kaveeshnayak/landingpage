@@ -32,6 +32,7 @@ body{
 
 }
 .fourth-section{
+  
     background-color:rgb(231, 211, 215);
     margin-top: -50px;
     display: flex;
@@ -42,6 +43,7 @@ body{
 
 }
 .pastelbg{
+  
     display: flex;
     flex-direction: row;
     background-color: indianred;
@@ -51,6 +53,25 @@ body{
     width:75vw;
     margin-top: 120px;
     border-radius: 10px;
+    gap:1vw;
+}
+.ax{
+   
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    width:40vw;
+    align-content: center;
+    justify-content: center;
+}
+.ax1{
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    width:20vw;
+    align-content: center;
+    justify-content: center;
 }
 .quote{
     display: flex;
@@ -170,6 +191,27 @@ ul{
     justify-content: center;
     align-items: center;
 }
+.pastelbg-left{
+   
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left: 5vw;
+    padding-top: 5vh;
+    padding-left: 1vw;
+    width:800px;
+}
+.pastelbg-right{
+  
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left: 5vw;
+    padding-top: 5vh;
+    padding-left: 1vw;
+
+}
+
 a{
     text-decoration: none;
     color:brown;
